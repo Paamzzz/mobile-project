@@ -14,7 +14,6 @@
 
 </div>
 
----
 
 ## 📖 Sobre o projeto
 
@@ -22,7 +21,7 @@
 
 O conteúdo é organizado por área de atuação e vem com uma biblioteca de cards pré-prontos para você começar de imediato. Cada vez que você vira um card, o celular vibra. Um detalhe pequeno que torna a experiência mais tátil e satisfatória.
 
----
+
 
 ## 🎯 Objetivo
 
@@ -35,47 +34,41 @@ Um app mobile com flashcards de entrevista, organizado por área, com modo de re
 ### O Resultado
 Um estudante que chega na entrevista técnica com mais confiança, mais consistência nos estudos e menos tempo perdido garimpando conteúdo em dez lugares diferentes.
 
----
 
-## 📱 Telas
-
-| # | Tela | Descrição |
-|---|------|-----------|
-| 1 | **Splash** | Tela inicial de apresentação do app |
-| 2 | **Login / Cadastro** | Autenticação via Firebase. Mesma tela, dois fluxos |
-| 3 | **Home** | Ponto de entrada principal, acesso às trilhas e cards |
-| 4 | **Questionário** | Sessão de flashcards com frente e verso |
-| 5 | **Resultado** | Resumo da sessão com desempenho |
-| 6 | **Trilha** | Navegação por área de atuação |
-
----
 
 ## 🛠️ Stack
 
-| Camada | Tecnologia |
-|--------|------------|
-| Mobile | Ionic + Angular |
-| Backend / Servidor | Node.js |
-| Autenticação | Firebase Authentication |
-| Banco de dados | Cloud Firestore |
-| API de perguntas | Open Trivia DB *(em avaliação)* |
-| Prototipagem | Figma |
-| Ambiente Android | Android Studio SDK |
-| Organização | GitHub Projects (Kanban) |
+- **Ionic + Angular** — estrutura e telas do app mobile
+- **Firebase Authentication** — login e cadastro
+- **Cloud Firestore** — armazenamento dos cards e histórico
+- **Node.js** — servidor de apoio
+- **Open Trivia DB** — fonte de perguntas *(em avaliação)*
 
----
 
-## 🗂️ Estrutura do time
+## Getting started
+ 
+> Pré-requisitos: **Node.js**, **Ionic CLI**, **Android Studio SDK** e uma conta no **Firebase**.
+ 
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/flipdev.git
+cd flipdev
+ 
+# Instale as dependências
+npm install
+ 
+# Configure as variáveis de ambiente
+cp .env.example .env
+# Preencha as credenciais do Firebase no arquivo .env
+ 
+# Rode no browser
+ionic serve
+ 
+# Rode no dispositivo Android
+ionic capacitor run android
+```
+ 
 
-O projeto é dividido em três frentes de trabalho:
-
-**Frontend Mobile** — Responsável pelas telas do app em Ionic e Angular, navegação entre páginas e experiência visual.
-
-**Integração** — Responsável pelos serviços Angular que conectam o frontend ao Firebase, pela chamada à Open Trivia API e pelo mapeamento dos dados para o modelo do app.
-
-**Firebase e Dados** — Responsável por configurar o Firebase, implementar autenticação, configurar o Firestore, modelar as coleções e criar o banco de cards pré-prontos.
-
----
 
 ## 👩‍💻 Time
 
@@ -102,7 +95,7 @@ O projeto é dividido em três frentes de trabalho:
   </tr>
 </table>
 
----
+
 
 <div align="center">
   <sub>Feito com 🖤 e muita repetição espaçada.</sub>
