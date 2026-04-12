@@ -75,7 +75,7 @@ ionic capacitor run android
 
 | Desenvolvedor | Contato |
 | :--- | :--- |
-| **Pamela Goulart* | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Paamzzz)) |
+| **Pamela Goulart** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Paamzzz) |
 | **João P. Rangel** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/7JPRBM7) |
 | **Anderson Mesquita** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/J01C3)|
 
