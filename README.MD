@@ -13,7 +13,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 </div>
-
+<br/>
 
 ## 📖 Sobre o projeto
 
@@ -21,7 +21,7 @@
 
 O conteúdo é organizado por área de atuação e vem com uma biblioteca de cards pré-prontos para você começar de imediato. Cada vez que você vira um card, o celular vibra. Um detalhe pequeno que torna a experiência mais tátil e satisfatória.
 
-
+<br/>
 
 ## 🎯 Objetivo
 
@@ -34,7 +34,7 @@ Um app mobile com flashcards de entrevista, organizado por área, com modo de re
 ### O Resultado
 Um estudante que chega na entrevista técnica com mais confiança, mais consistência nos estudos e menos tempo perdido garimpando conteúdo em dez lugares diferentes.
 
-
+<br/>
 
 ## 🛠️ Stack
 
@@ -44,6 +44,7 @@ Um estudante que chega na entrevista técnica com mais confiança, mais consist�
 - **Node.js** — servidor de apoio
 - **Open Trivia DB** — fonte de perguntas *(em avaliação)*
 
+<br/>
 
 ## Getting started
  
@@ -68,34 +69,17 @@ ionic serve
 ionic capacitor run android
 ```
  
-
+<br/>
 
 ## 👩‍💻 Time
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Paamzzz">
-        <img src="https://github.com/Paamzzz.png" width="80px" style="border-radius:50%"/><br/>
-        <sub><b>Pamela Amancio Goulart</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/7JPRBM7">
-        <img src="https://github.com/7JPRBM7.png" width="80px" style="border-radius:50%"/><br/>
-        <sub><b>João Pedro Rangel</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/J01C3">
-        <img src="https://github.com/J01C3.png" width="80px" style="border-radius:50%"/><br/>
-        <sub><b>Joyce</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+| Desenvolvedor | Contato |
+| :--- | :--- |
+| **Pamela Goulart* | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Paamzzz)) |
+| **João P. Rangel** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/7JPRBM7) |
+| **Anderson Mesquita** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/J01C3)|
 
-
+<br/>
 
 <div align="center">
   <sub>Feito com 🖤 e muita repetição espaçada.</sub>
