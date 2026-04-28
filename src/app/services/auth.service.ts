@@ -1,7 +1,7 @@
 import { Injectable, inject } from '@angular/core';
 import { Auth, createUserWithEmailAndPassword, signOut, user, signInWithEmailAndPassword } from '@angular/fire/auth';
-
-@Injectable({
+// inject() é a funçao para injetar serviços
+@Injectable({ // é um decorador
      providedIn: 'root',
 })
 export class AuthService {
