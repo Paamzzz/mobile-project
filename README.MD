@@ -42,7 +42,7 @@ Um estudante que chega na entrevista técnica com mais confiança, mais consist�
 - **Firebase Authentication** — login e cadastro
 - **Cloud Firestore** — armazenamento dos cards e histórico
 - **Node.js** — servidor de apoio
-- **Open Trivia DB** — fonte de perguntas *(em avaliação)*
+- **Pollinations AI * — API para feedback personalizado
 
 <br/>
 
@@ -52,7 +52,7 @@ Um estudante que chega na entrevista técnica com mais confiança, mais consist�
  
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/flipdev.git
+git clone https://github.com/Paamzzz/recall-mobile.git
 cd flipdev
  
 # Instale as dependências
@@ -75,9 +75,9 @@ ionic capacitor run android
 
 | Desenvolvedor | Contato |
 | :--- | :--- |
-| **Pamela Goulart** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Paamzzz) |
-| **João P. Rangel** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/7JPRBM7) |
-| **Anderson Mesquita** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/J01C3)|
+| **Pamela Amancio Goulart** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Paamzzz) |
+| **João Pedro Rangel** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/7JPRBM7) |
+| **Joyce do Vale Silva* | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/J01C3)|
 
 <br/>
 
