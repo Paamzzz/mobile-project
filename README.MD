@@ -77,10 +77,10 @@ ionic capacitor run android
 | :--- | :--- |
 | **Pamela Amancio Goulart** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/Paamzzz) |
 | **João Pedro Rangel** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/7JPRBM7) |
-| **Joyce do Vale Silva* | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/J01C3)|
+| **Joyce do Vale Silva** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/J01C3)|
 
 <br/>
 
 <div align="center">
-  <sub>Feito com 🖤 e muita repetição espaçada.</sub>
+  <sub>Feito com 🖤 e muita dedicação.</sub>
 </div>
