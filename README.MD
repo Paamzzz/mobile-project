@@ -42,7 +42,7 @@ Um estudante que chega na entrevista técnica com mais confiança, mais consist�
 - **Firebase Authentication** — login e cadastro
 - **Cloud Firestore** — armazenamento dos cards e histórico
 - **Node.js** — servidor de apoio
-- **Pollinations AI * — API para feedback personalizado
+- **Pollinations AI** — API para feedback personalizado
 
 <br/>
 
