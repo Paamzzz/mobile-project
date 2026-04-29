@@ -1,6 +1,6 @@
 <div align="center">
 
-# Projeto Mobile - Terceiro Semestre
+# Recall
 ### *Estude para entrevistas de TI do jeito que o seu cérebro aprende.*
 
 <br/>
