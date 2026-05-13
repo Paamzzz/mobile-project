@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
-
 import { addIcons } from 'ionicons';
 import { logoGithub } from 'ionicons/icons';
 
