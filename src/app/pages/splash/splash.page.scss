@@ -1,62 +1,43 @@
+/* IMPORTA A FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
 .container {
-  --background: linear-gradient(
-    to bottom,
-    #07005f 0%,
-    #14007c 45%,
-    #2f23a5 60%,
-    #14007c 78%,
-    #07005f 100%
-  );
+  --background: transparent;
 
   position: relative;
   overflow: hidden;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-/* EFEITO DE LUZ NO MEIO */
-.container::before {
-  content: "";
-  position: absolute;
-  width: 140%;
-  height: 220px;
-  left: -20%;
-  top: 38%;
-
-  background: radial-gradient(
-    ellipse at center,
-    rgba(123, 110, 255, 0.55) 0%,
-    rgba(123, 110, 255, 0.2) 35%,
-    transparent 70%
-  );
-
-  filter: blur(20px);
-  z-index: 0;
-}
-
-/* VIDEO */
+/* VIDEO FUNDO */
 .video-bg {
-  position: absolute;
-  inset: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 
   object-fit: cover;
+  transform: translate(-50%, -50%);
 
-  opacity: 0.25; /* depois pode aumentar */
-  z-index: 0;
+  z-index: -1;
 }
 
 /* CONTEÚDO */
 .content {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 
-  height: 100%;
+  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   padding: 70px 36px 45px;
+
   color: white;
 }
 
@@ -68,14 +49,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
 
-  margin-top: -40px;
+/* TOPO */
+.top {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 90px; /* empurra tudo mais para baixo */
 }
 
 /* LOGO */
 .logo {
-  width: 95px;
-  margin-bottom: 18px;
+  width: 125px; /* aumentada */
+  margin-bottom: 0px;
 }
 
 .logo img {
@@ -92,39 +83,50 @@ h1 {
   font-size: 42px;
   font-weight: 700;
   margin: 0;
-  letter-spacing: -1px;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 p {
-  margin-top: 8px;
+  margin-top: 10px;
 
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
 
-  color: rgba(255, 255, 255, 0.65);
+  color: #f3f3f3b8;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* BOTÕES */
 .bottom {
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* BOTÃO LARANJA */
+/* BOTÃO PRINCIPAL */
 .btn-primary {
   --background: #f39200;
   --background-hover: #f39200;
   --background-activated: #f39200;
-  --color:#ffffff;
+  --color: #ffffff;
   --border-radius: 999px;
 
-  height: 52px;
+  width: 85%;
 
-  font-size: 15px;
+  height: 46px;
+
+  font-size: 14px;
   font-weight: 600;
 
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 
   text-transform: none;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* BOTÃO LOGIN */
@@ -133,10 +135,29 @@ p {
   --color: #ffffff;
   --border-radius: 999px;
 
-  height: 52px;
+  width: 85%;
 
-  font-size: 15px;
+  height: 46px;
+
+  font-size: 14px;
   font-weight: 600;
 
   text-transform: none;
+
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* RESPONSIVO */
+@media (max-width: 480px) {
+  .content {
+    padding: 60px 24px 36px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 13px;
+  }
 }
