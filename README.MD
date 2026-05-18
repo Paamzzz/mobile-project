@@ -53,7 +53,7 @@ Um estudante que chega na entrevista técnica com mais confiança, mais consist�
 ```bash
 # Clone o repositório
 git clone https://github.com/Paamzzz/recall-mobile.git
-cd flipdev
+cd recall-mobile
  
 # Instale as dependências
 npm install
